@@ -1,0 +1,3 @@
+FILE fillAtl, d:\clipper\obj\ct2patch, d:\clipper\obj\ctus
+OUTPUT fillatl
+LIBRARY CLIPPER, EXTEND, NT250

@@ -1,0 +1,17 @@
+-   PROGRAMMA GARA
+
+    "CAMPIONATO REGIONALE MASTER UISP '95"
+    "SESTO FIORENTINO 23 Aprile 1995"
+
+    Progressivi atleti resettati a 1 per ogni gara/sesso
+
+    Sequenza gare:
+        200 sl
+        50  fa
+        50  do
+        50  sl
+        100 mx
+        50 ra
+
+        4x50 sl
+        4x50 mx

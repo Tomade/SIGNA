@@ -1,0 +1,17 @@
+# --- Makefile per Signa
+
+.EXTENSIONS :
+.EXTENSIONS : .exe .obj .prg
+
+all :   signa.exe .SYMBOLIC
+
+.prg.obj:
+        CLIPPER $[. /N /W /A /M /o$^@
+
+
+Signa.EXE : Signa.OBJ Atleti.obj Societa.obj Staffett.Obj Stampe.Obj Utils.obj Tempi.obj &
+            Cartelli.obj
+            blinker @Signa.blk
+
+special.exe : special.obj utils.obj societa.obj
+              blinker @special.blk

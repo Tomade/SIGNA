@@ -1,0 +1,17 @@
+BLINKER MESSAGE WINK
+NOBELL
+
+BLINKER OVERLAY OPSIZE 12
+BLINKER EXECUTABLE CLIPPER F30;
+FILE signa, c:\clipper\obj\ct2patch, c:\clipper\obj\ctus
+BEGINAREA
+    FILE Atleti, Societa, Staffett, Tempi, Utils, stampe, cartelli
+    ALLOCATE Extend
+#    LIBRARY swpaint
+ENDAREA
+MOD tbrowse0
+MOD tbrowse1
+MOD linelen
+LIBRARY CLIPPER, NT250
+
+OUTPUT Signa
